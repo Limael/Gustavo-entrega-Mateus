@@ -236,7 +236,6 @@ header{
 
 .ready{
     display: flex;
-    align-items: center;
     justify-content: center;
     background: #FFFFFF;
 }
@@ -285,13 +284,61 @@ header{
    border-radius: 10px;
  
  }
-label b{
 
+.register{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
     text-align: center;
-    color: #00235C;
+    color: #FFFFFF;
+    width: 200px;
+    height: 52px;
+    text-decoration: none;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    background-color: #116CFF;
+    margin-left: 345px;
+    margin-top: 50px;
+}
+
+.elipse{
+    position: relative;
+    display: flex;
+    left: 825px;
+    bottom: 287px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FF463A;
+    box-sizing: border-box;
+    border-radius: 61px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.ask{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    background: #FF463A;
+    border: 2px solid #FF463A;
+    padding: 4px 16px;
+    position: relative;
+    left: 798px;
+    bottom: 293px;
+}
+footer{
+padding: 10px;
+    background: url(flame-865.png);
 }
