@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 body{
     margin: 0;
 }
@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
     margin-top: 40px;
 }
-.bloco_topo{
+.bloco{
     display: flex;
 }
 .C{
@@ -224,7 +224,7 @@ header{
     font-size: 48px;
     line-height: 60px;
 }
-.preparing.-your-kids p {
+.preparing-your-kids p {
     width: 526px;
     height: 120px;
     font-family: 'Inter';
@@ -243,6 +243,15 @@ header{
     width: 545px;
     height: 96px;
 
+}
+.estrela_grande{
+    position: absolute;
+}
+.estrela_pequena{
+    position: relative;
+    left: 470px;
+    bottom: 77px;
+    width: 39.54px;
 }
 .ready h1{
     font-family: 'Inter';
@@ -339,6 +348,141 @@ header{
     bottom: 293px;
 }
 footer{
-padding: 10px;
-    background: url(flame-865.png);
+    background-color: #00235C;
+    height: 363px;
+
+}
+.footer_informaçoes{
+
+    display: flex;
+    align-items: center;
+}
+.footer_informaçoes .footer_esquerda{
+
+    width: 482px;
+    height: 363px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 101px;
+
+}
+.footer_informaçoes .footer_esquerda .C{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22.5524px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #00235C;
+    width: 35.94px;
+    height: 37px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+}
+.footer_informaçoes .footer_esquerda .coding_kid{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6857px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 129.32px;
+    height: 37px;
+    background: #00235C;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+}
+.imagem_fundo{
+    background-image: url(./Imagem/estrelas.png);
+    width: 482px;
+    height: 363px;
+}
+.footer_informaçoes .footer_esquerda span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer_informaçoes .footer_esquerda img{
+    display: flex;
+}
+.footer_informaçoes .footer_esquerda .icones{
+    display: flex;
+    width: 195px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_informaçoes .footer_direita{
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    align-items: flex-start;
+}
+.footer-links{
+  padding-left:0;
+  list-style:none
+}
+.footer_direita p{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #116CFF;
+}
+.footer_direita a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#footer-links{
+    padding-left:0;
+    list-style:none
+  }
+#footer_direita{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    align-items: flex-start;
+
+}
+#footer_direita p{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #116CFF;
+}
+#footer_direita a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
 }
